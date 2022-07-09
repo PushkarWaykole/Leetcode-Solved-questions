@@ -16,5 +16,6 @@ public:
 
     bool isIsomorphic(string s, string t) {
         return helper(s,t) && helper(t,s);
+        
     }
 };
